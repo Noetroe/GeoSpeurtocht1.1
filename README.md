@@ -21,7 +21,8 @@ Commando | Beschrijving | Permissie
 /setstart | Markeert de locatie waar je staat als het startpunt | Begeleider
 /startpunt | Teleporteert naar het startpunt | Speler
 /startall \<tijd\> | Voorbeeld: /startall 10, Dit laat de spelers 10 minuten vrij rondlopen. | Begeleider
-/stopall | Dit stopt de timer en zet alle spelers bevroren terug op het startpunt. | Begeleider
+/startplayer \<speler\> [tijd] | Start de speurtocht voor één specifieke speler. Optioneel met een tijd in minuten. De speler krijgt een eigen afteltimer bovenaan het scherm. | Begeleider
+/stopall | Dit stopt de timer en zet alle spelers bevroren terug op het startpunt. Stopt ook individuele /startplayer timers. | Begeleider
 /stoptimers | Dit stopt de timer zonder alle spelers terug te zetten | Begeleider
 /freezeall | Bevriest alle spelers op hun plek | Begeleider
 /unfreezeall | Laat alle bevroren spelers weer vrij | Begeleider
